@@ -1,0 +1,9 @@
+body {
+    background: white;
+}
+
+head title {
+    text-align: center;
+    text-shadow:1px;
+    color: goldenrod;
+}
