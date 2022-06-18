@@ -1,9 +1,40 @@
 body {
     background: white;
+    background-image: url(img/backgroundphotomywebsite.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
 }
 
-head title {
+h1 {
     text-align: center;
-    text-shadow:1px;
-    color: goldenrod;
+    text-shadow: 3px 3px teal;
+    color: white;
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size: small;
+}
+
+.topnav > div > a {
+    color:whitesmoke;
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 300px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:antiquewhite;
+    text-shadow: 3px 3px teal;
+}
+
+a:active {
+    text-decoration: none;
 }
