@@ -1,5 +1,11 @@
-function reveal(id) {
-    var el=document.getElementById(id);
-    el.style.display = 'block';
+
+
+function revealAbout(id) {
+    const el = document.getElementById(about);
+    el.style.display = block;
 }
 
+
+const id = "";
+
+function message(id) {}

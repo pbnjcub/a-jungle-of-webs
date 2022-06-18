@@ -3,8 +3,10 @@
     <head>
         <link rel="stylesheet" href="style.css" />
         <title>It's a jungle out there</title>
+        <script language="javascript" src="script.js"></script>
     </head>
     <body>
+
         <h1>a jungle of webs .</h1>
         <div class="container">
             <div class="topnav">   
@@ -12,10 +14,13 @@
                     <a class="nav" href="#home">Home</a>
                 </div>
                 <div>
-                    <a class="nav" href="javascript:void(0);" onclick="reveal(id);">About</a>
+                    <a class="nav" href="javascript:;" onmouseover="document.getElementById('about').style.display='block';" onmouseleave="document.getElementById('about').style.display='none';">About</a>
                 </div>
                 <div>
-                    <a class="nav" href="#contact">Contact</a>
+                    <a class="nav" href="javascript:;" onmouseover="document.getElementById('experience').style.display='block';" onmouseleave="document.getElementById('experience').style.display='none';">Experience</a>
+                </div>
+                <div>
+                    <a class="nav" href="javascript:;" onmouseover="document.getElementById('contact').style.display='block';" onmouseleave="document.getElementById('contact').style.display='none';">Contact</a>
                 </div>
             </div>
             <div class="content">
@@ -23,7 +28,10 @@
                     <h2 id="aboutMe">About Me</h2>
                     <p id="aboutMessage">Motivated life-long learner who takes consistent and measured risks to improve teaching practices. Approaches life and career with a growth-mindset, with the understanding that nothing is ever completely mastered, and there is always something new to learn. Dependable and team-oriented, always willing to consider other perspectives but also not afraid to voice my own viewpoint. A proud father to Wyatt and Willow, and a partner to Mark.</p>
                 </div>
+                <div id="">
+                    <h2 id="aboutMe">About Me</h2>
+                    <p id="aboutMessage">Motivated life-long learner who takes consistent and measured risks to improve teaching practices. Approaches life and career with a growth-mindset, with the understanding that nothing is ever completely mastered, and there is always something new to learn. Dependable and team-oriented, always willing to consider other perspectives but also not afraid to voice my own viewpoint. A proud father to Wyatt and Willow, and a partner to Mark.</p>
+                </div>
         </div>
-        <script src="script.js"></script>
     </body>
 </html>
