@@ -1,7 +1,5 @@
-const jumplinks = document.querySelectorAll("a[href^='#']");
+function reveal(id) {
+    var el=document.getElementById(id);
+    el.style.display = 'block';
+}
 
-jumplinks.forEach(link => {
-    link.addEventListener('click', event => {
-        event.preventDefault();
-    });
-});
