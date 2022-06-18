@@ -77,7 +77,35 @@ h1 {
     color:whitesmoke;
     font-size: smaller;
     line-height: 25px;
-    row-gap: 10px;
+}
+
+#workExperience th {
+    padding-right: 35px;
+}
+
+
+#workExperience td {
+    padding-right: 35px;
+}
+
+#contact {
+    display: none;
+}
+
+#contactInfo {
+    font-family:Arial, Helvetica, sans-serif;
+    color:whitesmoke;
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+#contactMessage {
+    font-family: 'Arial';
+    color:whitesmoke;
+    font-size: smaller;
+    line-height: 25px;
 }
 
 a:link {
