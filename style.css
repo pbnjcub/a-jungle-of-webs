@@ -23,14 +23,12 @@ h1 {
     flex-basis: 300px;
     height: 100px;
     margin: 5px;
-    white-space: nowrap;
   }
 
 .topnav > div > a {
     color:whitesmoke;
     font-size: xx-large;
     font-family:Arial, Helvetica, sans-serif;
-    display: inline-block;
 }
 
 .content {
@@ -43,13 +41,6 @@ h1 {
 
 #about {
     display: none;
-}
-
-#aboutLink {
-    display: none;
-    color:whitesmoke;
-    font-size: xx-large;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 #aboutMe {
@@ -70,13 +61,6 @@ h1 {
 
 #experience {
     display: none;
-}
-
-#experienceLink {
-    display: none;
-    color:whitesmoke;
-    font-size: xx-large;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 #experienceHead {
@@ -106,13 +90,6 @@ h1 {
 
 #contact {
     display: none;
-}
-
-#contactLink {
-    display: none;
-    color:whitesmoke;
-    font-size: xx-large;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 #contactInfo {
