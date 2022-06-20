@@ -1,10 +1,33 @@
 
 
-function revealAbout(id) {
-    const el = document.getElementById(about);
-    el.style.display = block;
+function revealAbout() {
+    const el = document.getElementById('about');
+    el.style.display ="block";
 }
 
+function hideAbout() {
+    const el = document.getElementById('about');
+    el.style.display = "none";
+}
+
+function revealExperience() {
+    const el = document.getElementById('experience');
+    el.style.display ="block";
+}
+
+function hideExperience() {
+    const el = document.getElementById('experience');
+    el.style.display = "none";
+}
+function revealContact() {
+    const el = document.getElementById('contact');
+    el.style.display ="block";
+}
+
+function hideContact() {
+    const el = document.getElementById('contact');
+    el.style.display = "none";
+}
 
 var id = "";
 var contentMessage = "";
